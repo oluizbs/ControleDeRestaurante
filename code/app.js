@@ -46,13 +46,14 @@ function monta_div() {
         $div.appendChild($p_desc)
         $div.appendChild($p_preco)
         $div.appendChild($button)
-        parseFloat
+        
         $main.appendChild($div)
-        localStorage.setItem( "p_desc", "p_preco" );
+
     });
 
     return 0
 }
+
 // carrinho
 const $btn_carrinho = document.querySelector('#carrinho')
 $btn_carrinho.addEventListener('click', () => {
@@ -61,18 +62,3 @@ $btn_carrinho.addEventListener('click', () => {
 
     })
 })
-
-//teste
-
-
-
-
-
-
-
-
-
-
-
-
-
