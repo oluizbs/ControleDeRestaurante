@@ -1,0 +1,114 @@
+body {
+    background-color: #bd8f69;
+    color: #fff;
+    text-align: center;
+    font-family:' Times New Roman', Times, serif;
+
+}
+
+.h1_cabecalho, .h1_cabecalho > a { 
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+}
+
+.h1_cabecalho > a:hover {
+    text-decoration: underline;
+}
+
+#carrinho {
+    text-align: end;
+    position: relative;
+    left: 35em;
+    top: 0.9em;
+    cursor: pointer;
+    width: 05%;
+
+}
+
+#carrinho:hover {
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+
+#menu_pratos {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: inline-block;
+
+}
+
+.prato_div {
+    display: inline-block;
+    width: 300px;
+    min-height: 300px;
+    padding: 5px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 1px 1px #000;
+
+}
+
+.prato_imagem {
+    width: 150px;
+    height: 100px;
+
+}
+
+.prato_titulo {
+    color: #bd8f69;
+
+}
+
+.prato_descricao {
+    font-family: cursive;
+    color: #000;
+    text-align: justify;
+
+}
+
+.prato_preco {
+    color: #000;
+
+}
+
+.prato_botao {
+    text-decoration: none;
+
+}
+
+.prato_botao:hover {
+    cursor: pointer;
+}
+
+/* Pagina carrinho */
+#carrinho_total {
+    font-size: 3.5em;
+    margin: 0;
+}
+
+#carrinho_produtos {
+    text-align: right;
+
+}
+
+#carrinho_produtos p {
+    font-size: xx-large;
+}
+
+
+.produto_lista_nome {
+    font-size: larger;
+}
+
+.remove_produto {
+    background-color: #fff;
+    border: #000;
+}
+
+.remove_produto:hover {
+    cursor: pointer;
+    color: #FF0000;
+}
